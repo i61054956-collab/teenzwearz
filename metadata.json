@@ -1,0 +1,8 @@
+{
+  "name": "Teenz Wearz - 3D Try-On Studio",
+  "description": "Premium multi-page fashion portal and outfit creator for Teenz Wearz, Thoothukudi. Includes cinematic decryption intros, interactive woven motion graphics backgrounds, 8 surplus categories, and direct WhatsApp bargain negotiation dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

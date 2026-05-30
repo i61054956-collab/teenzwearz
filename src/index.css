@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Cinematic keyframe animations for luxury fashion layout */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes laserExpand {
+  from {
+    width: 0%;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes marqueeSlow {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Custom interactive utility helper classes */
+.animate-fade-in-up {
+  animation: fadeInUp 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-width-laser {
+  animation: laserExpand 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-marquee {
+  animation: marqueeSlow 32s linear infinite;
+}
+
+.animate-spin-slow {
+  animation: spin 14s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
